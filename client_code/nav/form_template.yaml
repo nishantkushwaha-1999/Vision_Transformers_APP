@@ -8,10 +8,6 @@ components:
   type: ColumnPanel
   layout_properties: {slot: left-nav}
   components:
-  - name: welcome
-    properties: {}
-    type: RichText
-    layout_properties: {grid_position: 'JWRVRT,SBHLFZ'}
   - name: BasicCNN
     properties: {text: BasicCNN, spacing_below: medium, spacing_above: none, background: '#4c00ff'}
     type: Button
