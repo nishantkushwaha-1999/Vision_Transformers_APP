@@ -1,0 +1,7 @@
+container: {type: ColumnPanel}
+components:
+- name: file_loader_1
+  properties: {}
+  type: FileLoader
+  layout_properties: {grid_position: 'OLWBPK,ZAOHVZ'}
+is_package: true

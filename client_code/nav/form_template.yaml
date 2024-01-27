@@ -1,0 +1,36 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- name: side_nav
+  properties: {visible: true, background: '#1a2621'}
+  type: ColumnPanel
+  layout_properties: {slot: left-nav}
+  components:
+  - name: welcome
+    properties: {}
+    type: RichText
+    layout_properties: {grid_position: 'JWRVRT,SBHLFZ'}
+  - name: BasicCNN
+    properties: {text: BasicCNN, spacing_below: medium, spacing_above: none, background: '#4c00ff'}
+    type: Button
+    layout_properties: {grid_position: 'IEVRUU,INBTJE'}
+    event_bindings: {click: BasicCNN_click}
+  - name: ViTCNN
+    properties: {text: 'ViTCNN    ', background: '#4c00ff', spacing_below: medium}
+    type: Button
+    layout_properties: {grid_position: 'ULLOLW,BDFJOG', full_width_row: false}
+  - name: try
+    properties: {text: ' try        ', background: '#4c00ff'}
+    type: Button
+    layout_properties: {grid_position: 'JIIOCT,IMNEDP'}
+- name: logo
+  properties: {height: 99.1484375, source: _/theme/Screenshot 2024-01-25 at 7.05.58 PM.png}
+  type: Image
+  layout_properties: {slot: logo}
+- name: main
+  properties: {}
+  type: ColumnPanel
+  layout_properties: {slot: default}
+custom_component: false
