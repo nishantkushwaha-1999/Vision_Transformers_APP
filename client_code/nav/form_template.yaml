@@ -25,8 +25,13 @@ components:
   properties: {height: 99.1484375, source: _/theme/Screenshot 2024-01-25 at 7.05.58 PM.png}
   type: Image
   layout_properties: {slot: logo}
-- name: main
+- name: flow_panel_1
   properties: {}
-  type: ColumnPanel
+  type: FlowPanel
   layout_properties: {slot: default}
+  components:
+  - name: rich_text_1
+    properties: {content: Home}
+    type: RichText
+    layout_properties: {}
 custom_component: false

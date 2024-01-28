@@ -8,6 +8,6 @@ class nav(navTemplate):
     self.init_components(**properties)
 
   def BasicCNN_click(self, **event_args):
-    self.main.clear()
-    self.main.add_component(basicCNN())
+    self.flow_panel_1.clear()
+    self.flow_panel_1.add_component(basicCNN())
     
