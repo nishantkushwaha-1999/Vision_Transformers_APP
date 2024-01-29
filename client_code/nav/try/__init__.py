@@ -1,5 +1,6 @@
 from ._anvil_designer import tryTemplate
 from anvil import *
+import anvil.server
 
 class try(tryTemplate):
   def __init__(self, **properties):

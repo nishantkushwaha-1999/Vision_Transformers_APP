@@ -10,4 +10,8 @@ class nav(navTemplate):
   def BasicCNN_click(self, **event_args):
     self.flow_panel_1.clear()
     self.flow_panel_1.add_component(basicCNN())
+
+  def ViTCNN_click(self, **event_args):
+    data = anvil.server.call("history_all")
+    
     

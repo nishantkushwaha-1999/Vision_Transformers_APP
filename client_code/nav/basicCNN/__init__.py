@@ -1,5 +1,6 @@
 from ._anvil_designer import basicCNNTemplate
 from anvil import *
+import anvil.server
 import plotly.graph_objects as go
 
 class basicCNN(basicCNNTemplate):

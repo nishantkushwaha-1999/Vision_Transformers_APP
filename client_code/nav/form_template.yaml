@@ -17,6 +17,7 @@ components:
     properties: {text: 'ViTCNN    ', background: '#4c00ff', spacing_below: medium}
     type: Button
     layout_properties: {grid_position: 'ULLOLW,BDFJOG', full_width_row: false}
+    event_bindings: {click: ViTCNN_click}
   - name: try
     properties: {text: ' try        ', background: '#4c00ff'}
     type: Button
