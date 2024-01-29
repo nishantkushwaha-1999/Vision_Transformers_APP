@@ -2,10 +2,14 @@ from ._anvil_designer import navTemplate
 from anvil import *
 import anvil.server
 from basicCNN import basicCNN
-import plotly.express as px
+from try_all import try_all
+from plotly import graph_objects as go
+# from io import StringIO
+# import pandas as pd
 
 class nav(navTemplate):
   def __init__(self, **properties):
+    plot = Plot()
     self.init_components(**properties)
 
   def BasicCNN_click(self, **event_args):
@@ -14,5 +18,10 @@ class nav(navTemplate):
 
   def ViTCNN_click(self, **event_args):
     data = anvil.server.call("history_all")
+
+  def try_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    self.flow_panel_1.clear()
+    self.flow_panel_1.add_component(try_all())
     
     

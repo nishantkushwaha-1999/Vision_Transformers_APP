@@ -12,9 +12,5 @@ components:
   - name: plot_1
     properties: {}
     type: Plot
-    layout_properties: {width: 484.632875}
-  - name: button_1
-    properties: {text: button_1}
-    type: Button
-    event_bindings: {click: button_1_click}
+    layout_properties: {width: 749.367375}
 is_package: true
