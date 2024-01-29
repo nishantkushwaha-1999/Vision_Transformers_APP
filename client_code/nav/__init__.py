@@ -2,6 +2,7 @@ from ._anvil_designer import navTemplate
 from anvil import *
 import anvil.server
 from basicCNN import basicCNN
+import plotly.express as px
 
 class nav(navTemplate):
   def __init__(self, **properties):

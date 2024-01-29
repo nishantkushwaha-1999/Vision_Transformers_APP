@@ -6,7 +6,8 @@ unique_ids:
     nav.try: '1706318646918501228117438.5105'
     nav.vitCNN: '1706318635914728683509049.283'
   modules: {}
-  server_modules: {}
+  server_modules:
+    ServerPackage1: '1706556475294679136196477.1646'
   assets:
     Screenshot 2024-01-25 at 7.05.58 PM.png: '1706316805874891256516718.7407'
     standard-page.html: N3KC2HWAQ5RKWSHUK65DFDVWZJ4EVARW
