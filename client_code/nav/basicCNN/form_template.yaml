@@ -13,7 +13,8 @@ components:
     properties: {}
     type: Plot
     layout_properties: {width: 484.632875}
-  - name: radio_button_1
-    properties: {text: radio_button_1}
-    type: RadioButton
+  - name: button_1
+    properties: {text: button_1}
+    type: Button
+    event_bindings: {click: button_1_click}
 is_package: true
