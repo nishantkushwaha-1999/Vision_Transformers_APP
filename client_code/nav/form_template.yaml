@@ -32,8 +32,8 @@ components:
   type: FlowPanel
   layout_properties: {slot: default}
   components:
-  - name: rich_text_1
-    properties: {content: Home}
-    type: RichText
-    layout_properties: {}
+  - name: button_1
+    properties: {text: button_1}
+    type: Button
+    event_bindings: {click: button_1_click}
 custom_component: false

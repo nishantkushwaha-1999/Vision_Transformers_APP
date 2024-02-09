@@ -23,5 +23,9 @@ class nav(navTemplate):
     """This method is called when the button is clicked"""
     self.flow_panel_1.clear()
     self.flow_panel_1.add_component(try_all())
+
+  def button_1_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    pass
     
     
