@@ -26,7 +26,7 @@ class nav(navTemplate):
     self.flow_panel_1.add_component(try_all())
 
   def button_1_click(self, **event_args):
-    """This method is called when the button is clicked"""
-    pass
+    data = anvil.server.call("evaluate_bCNN")
+    print(data)
     
     
