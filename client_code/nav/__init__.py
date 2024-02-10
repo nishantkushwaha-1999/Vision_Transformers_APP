@@ -17,7 +17,8 @@ class nav(navTemplate):
     self.flow_panel_1.add_component(basicCNN())
 
   def ViTCNN_click(self, **event_args):
-    data = anvil.server.call("history_all")
+    data = anvil.server.call("get_history", "basicCNN", "all")
+    print(data)
 
   def try_click(self, **event_args):
     """This method is called when the button is clicked"""
