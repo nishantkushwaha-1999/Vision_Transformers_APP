@@ -13,9 +13,9 @@ class try_all(try_allTemplate):
   def file_loader_1_change(self, file, **event_args):
     """This method is called when a new file is loaded into this FileLoader"""
     # try:
-    result = anvil.server.call("predict_basicCNN", file)
+    result = anvil.server.call("image", file)
     print('cnn', result)
-    result = anvil.server.call("predict_vit", file)
-    print('ViT', result)
+    # result = anvil.server.call("predict_vit", file)
+    # print('ViT', result)
     # except ValueError:
       
